@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Calculadora_Aritmetica
+namespace Calculadora_Igualdad
 {
     /// <summary>
     /// Clase Principal de la aplicación

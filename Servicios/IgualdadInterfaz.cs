@@ -15,15 +15,13 @@ namespace Calculadora_Igualdad.Servicios
         public int numeroPantalla(string contador);
 
         /// <summary>
-        /// Método que pide un número al usuario:
+        /// Método que mira si son iguales:
         /// </summary>
-        /// <returns>un entero con la opción seleccionada</returns>
         public void igualdad(int num1, int num2, bool igual);
 
         /// <summary>
-        /// Método que realiza una suma:
+        /// Método que mira si son iguales:
         /// </summary>
-        /// <returns>un entero con la opción seleccionada</returns>
         public void desIgualdad(int num1, int num2, bool desIgual);
     }
 }
