@@ -16,7 +16,8 @@ namespace Calculadora_Igualdad
             MenuInterfaz menu = new MenuImplementacion();
             IgualdadInterfaz igualdad = new IgualdadImplementacion();
 
-            int num1, num2, opcionMenu;
+            string expr1, expr2;
+            int opcionMenu;
             bool respuerta = true;
 
             do
@@ -30,21 +31,20 @@ namespace Calculadora_Igualdad
                         break;
 
                     case 2:
-                        num1 = igualdad.numeroPantalla("primer");
-                        num2 = igualdad.numeroPantalla("segundo");
+                        expr1 = igualdad.numeroPantalla("primer");
+                        expr2 = igualdad.numeroPantalla("segundo");
                         Console.Clear();
 
-                        igualdad.igualdad(num1, num2, respuerta);
+                        igualdad.igualdad(expr1, expr2, respuerta);
                         break;
 
                     case 3:
-                        num1 = igualdad.numeroPantalla("primer");
-                        num2 = igualdad.numeroPantalla("segundo");
+                        expr1 = igualdad.numeroPantalla("primer");
+                        expr2 = igualdad.numeroPantalla("segundo");
                         Console.Clear();
 
-                        igualdad.desIgualdad(num1, num2, respuerta);
+                        igualdad.desIgualdad(expr1, expr2, respuerta);
                         break;
-
                 }
             } while (opcionMenu != 1);
         }
